@@ -193,21 +193,26 @@ ul, li{
     background: #00AEBD;
 }
 .slideItem{
+    margin: auto;
     text-align: center;
-    width: 600px;
-    height: 380px;
+    width: 500px;
+    height: 320px;
     background: snow;
     border-radius: 3%;
 }
 .slideItem p{
     margin-top: 20px;
+    font-size: .9em;
 }
 .slideItem .name{
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: bold;
     color: #00AEBD;
 }
 .slideItem img{
+    padding: 3px;
+    border: 1px solid white;
+    width: 120px;
     border-radius: 50%;
 }
 .slideItem .cursive{
