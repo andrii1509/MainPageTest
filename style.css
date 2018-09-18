@@ -175,9 +175,44 @@ ul, li{
     color: snow;
     text-transform: uppercase;
 }
-.slider{
+.carousel{
+    text-align: center;
+}
+.carousel h1, .carousel h4{
+    color: snow;
+    margin: 50px;
+}
+.carousel{
+    padding-top: 50px;
     height: 825px;
     background: #00AEBD;
+}
+.container{
+    text-align: center;
+    display: flex;
+    background: #00AEBD;
+}
+.slideItem{
+    text-align: center;
+    width: 600px;
+    height: 380px;
+    background: snow;
+    border-radius: 3%;
+}
+.slideItem p{
+    margin-top: 20px;
+}
+.slideItem .name{
+    margin-top: 50px;
+    font-weight: bold;
+    color: #00AEBD;
+}
+.slideItem img{
+    border-radius: 50%;
+}
+.slideItem .cursive{
+    font-size: 0.8em;
+    font-style: italic;
 }
 
 
