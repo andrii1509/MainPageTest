@@ -50,7 +50,7 @@ ul, li{
     font-weight: bold;
     margin-bottom: 10px;
 }
-#home h6{
+#home h5{
     margin-bottom: 30px;
 }
 #home button{
@@ -271,7 +271,10 @@ ul, li{
         margin: auto;
     }
     #search{
-        width: 80%;
+        width: 90%;
+    }
+    #search button{
+        width: 200px;
     }
     .homeButtons button{
         /*width: 45%;!important;*/
@@ -281,6 +284,21 @@ ul, li{
     }
     #home #btn1, #home #btn2{
         width: 150px;
+    }
+}
+@media (max-width: 600px) {
+    #search{
+        width: 100%;
+    }
+    #search input{
+        width: 50%;
+    }
+    #search select{
+        width: 20%;
+    }
+    #search button{
+        margin: 30px;
+        width: 250px;
     }
 }
 
