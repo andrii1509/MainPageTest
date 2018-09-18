@@ -1,3 +1,5 @@
+/*MAIN*_______*/
+
 body{
     min-width: 300px;
     background: #f7f7f7;
@@ -15,6 +17,9 @@ a{
 ul, li{
     list-style: none;
 }
+
+/*HEAD___________*/
+
 .header{
     z-index: 2;
     background: #E3E5E9;
@@ -110,6 +115,9 @@ ul, li{
     background: #f7f7f724;
 }
 
+
+/*Flex Templates-------*/
+
 .templates{
     text-align: center;
 }
@@ -150,6 +158,9 @@ ul, li{
     margin: 0 auto 30px;
 }
 
+
+/*FOOTER--------*/
+
 .footer{
     padding-top: 10px;
     height: 270px;
@@ -182,6 +193,9 @@ ul, li{
     color: snow;
     text-transform: uppercase;
 }
+
+/*Slider -----------*/
+
 .carousel{
     text-align: center;
 }
@@ -258,6 +272,9 @@ ul, li{
     background: #4e555b;
 }
 
+
+/*crutches ----------*/
+
 @media(max-width: 1200px) {
     .logo{
         text-align: center;
@@ -275,9 +292,7 @@ ul, li{
     }
     #search button{
         width: 200px;
-    }
-    .homeButtons button{
-        /*width: 45%;!important;*/
+        font-size: 14px;
     }
     .flexContainer{
         width: 90%;
@@ -297,6 +312,7 @@ ul, li{
         width: 20%;
     }
     #search button{
+        font-size: 14px;
         margin: 30px;
         width: 250px;
     }
