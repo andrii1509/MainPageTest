@@ -89,6 +89,9 @@ ul, li{
     background: none;
     height: 55px;
 }
+#search input{
+    font-size: 16px;
+}
 .homeButtons{
     /*margin-top: 250px;*/
     height: 70px;
@@ -127,6 +130,7 @@ ul, li{
     padding-top: 50px;
     text-decoration: underline;
     color: #4dadbb;
+    font-size: 1em;
 }
 .template img{
     width: 300px;
@@ -140,33 +144,34 @@ ul, li{
 }
 
 .footer{
+    padding-top: 10px;
     height: 270px;
     background: #323232;
 }
 .footerIcon{
     background: #323232;
-    /*margin: auto;*/
     margin: 0 47%;
 }
 .footer h4{
 
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    height: 40px;
+    height: 25px;
     background: #272727;
-    font-size: 1.3em;
+    font-size: .8em;
     bottom: 0;
+    color: snow;
 }
 .bottomLinks{
     display: flex;
     justify-content: center;
 }
 .bottomLinks li{
-    margin: 50px 30px;
+    margin: 40px 30px 50px;
     color: snow;
 }
 .bottomLinks a {
-    font-size: 1em;
+    font-size: .8em;
     color: snow;
     text-transform: uppercase;
 }
