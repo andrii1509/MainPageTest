@@ -279,5 +279,8 @@ ul, li{
     .flexContainer{
         width: 90%;
     }
+    #home #btn1, #home #btn2{
+        width: 150px;
+    }
 }
 
