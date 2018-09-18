@@ -95,7 +95,6 @@ ul, li{
     font-size: 16px;
 }
 .homeButtons{
-    /*margin-top: 250px;*/
     height: 70px;
     margin: 250px auto 0;
 }
@@ -196,7 +195,7 @@ ul, li{
 }
 .slideItem{
     box-shadow: inset -1px 1px 205px 107px rgba(0,0,0,0.57);
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     width: 500px;
     height: 320px;
@@ -222,27 +221,45 @@ ul, li{
     font-size: 0.8em;
     font-style: italic;
 }
-.above{
+.active{
+    transition: 0.4s ease-in-out;
+    margin-top: 16px;
     height: 380px;
     width: 625px;
     font-size: 16px;
     box-shadow: 4px 11px 21px -8px rgba(0,0,0,0.68);
-    margin:0 33%;
+    margin-left: 40%;
+    transform: translate(-50%);
     position: absolute;
     z-index: 1;
 }
-.above p{
+.active p{
     font-size: 1em;
 }
-
+#left{
+    cursor: pointer;
+    width: 40px;
+    float: left;
+    margin: 150px 50px;
+}
+#right{
+    cursor: pointer;
+    width: 40px;
+    float: right;
+    margin: 150px 50px;
+}
+#right:hover, #left:hover{
+    background: #4e555b;
+}
 
 @media(max-width: 1200px) {
     .logo{
         text-align: center;
     }
     .navigation{
+        padding: 2px;
         width: 100%;
-        margin: 20px auto;
+        margin: 5px auto;
     }
     .navigation li {
         margin: auto;
@@ -250,8 +267,8 @@ ul, li{
     #search{
         width: 80%;
     }
-    .homeButtons{
-        width: 90%;
+    .homeButtons button{
+        /*width: 45%;!important;*/
     }
     .flexContainer{
         width: 90%;
