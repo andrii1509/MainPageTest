@@ -100,8 +100,14 @@ ul, li{
 }
 .homeButtons button{
     width: 45%;
+    background: #f7f7f724;
     font-size: 15px !important;
     box-shadow: 4px 11px 21px -8px rgba(0,0,0,0.68);
+}
+
+#home #btn1, #home #btn2{
+    color: green;
+    background: #f7f7f724;
 }
 
 .templates{
